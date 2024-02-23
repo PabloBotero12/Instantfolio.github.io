@@ -290,7 +290,28 @@ button:hover {
     opacity: 1;
 }
 
-@media screen and (max-width: 500px) {
+#image {
+    width: 600px; 
+    height: 350px;
+}
+
+@media screen and (max-width: 767px) {
+        /* Estilos específicos para pantallas más pequeñas */
+        .container {
+            width: 100%; /* Utiliza el ancho completo en pantallas pequeñas */
+            padding: 0 10px; /* Añade un pequeño espacio alrededor del contenido en pantallas pequeñas */
+        }
+    
+        .styled-form {
+            width: 90%; /* Utiliza el ancho del 90% en pantallas pequeñas */
+        }
+    
+        #image {
+            width: 470px;
+        }
+}
+
+@media screen and (max-width: 567px) {
     /* Estilos específicos para pantallas más pequeñas */
     .container {
         width: 100%; /* Utiliza el ancho completo en pantallas pequeñas */
@@ -302,7 +323,7 @@ button:hover {
     }
 
     #image {
-        width: 400px;
+        width: 440px;
     }
 }
 
