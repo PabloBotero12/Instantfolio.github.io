@@ -702,7 +702,7 @@ function generateCode() {
                     </div>
                     <div class="right animate__animated animate__backInRight">
                         <div class="profile">
-                            <img src="profile.jpg" alt="profile-img">
+                            <img src="#" alt="profile-img">
                         </div>
                     </div>
                 </div>
